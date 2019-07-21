@@ -4,6 +4,11 @@
   "description": "Tizen web watch boilerplate",
   "main": "js/app.js",
   "scripts": {
+    "build": "tizen build-web && tizen package -t wgt",
+    "clean": "tizen clean",
+    "emulator:install": "tizen install -n BasicWatchTemplate.wgt",
+    "emulator:run": "tizen run -p w58wmfq3CF",
+    "list:devices": "",
     "test": "test"
   },
   "keywords": [
